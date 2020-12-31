@@ -1,9 +1,4 @@
 
----
-title: "Welcome to Blog!"
-date: 2020-12-31, 목요일
-categories: 준비중
----
 
 2020년의 마지막 날이다. 
 
