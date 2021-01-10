@@ -1,0 +1,24 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "SSACxAIFFEL"
+    url: /categories/SSACxAIFFEL/
+  - title: "오늘하루어땠어?"
+    url: /categories/오늘하루어땠어/
+  #- title: "Categories"
+  #  url: /categories/
+  - title: "또다른정리"
+    url: /categories/또다른정리/
+  - title: "Tags"
+    url: /tags/
+  #- title: "Posts"
+  #  url: /posts/
