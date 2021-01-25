@@ -1,6 +1,6 @@
 ---
 title:  "[3주차] Aiffel에서 인공지능 도전기"
-excerpt: "Aiffel에서 인공지능 도전기"
+excerpt: "리눅스 운영체제 Visualization 사이킷런 Audio 음성 데이터 작사가 인공지능 Optimization 문자열 조작"
 categories:
   - SSACxAIFFEL
 tags:
