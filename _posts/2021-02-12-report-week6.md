@@ -1,6 +1,6 @@
 ---
 title:  "[6주차] Aiffel에서 인공지능 도전기"
-excerpt: ""
+excerpt: "컴퓨터 파워 UP 해커톤 Convolutional Networks"
 categories:
   - SSACxAIFFEL
 tags:
