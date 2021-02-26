@@ -17,7 +17,8 @@ last_modified_at: 2021-02-26T17:15:00-00:00
 Sqlite를 활용해 데이터베이스를 본격적으로 다루어 보고, sqlite3를 통한 파이썬에서의 접근법 및 주요 SQL 쿼리 사용법을 익히고 실습해 본다.
 #### 19.TF2 API 개요
 Tensorflow V2의 표준 API로 활용되고 있는 Keras API의 model, layer 등 핵심적인 개념을 활용하는 방법을 실습을 통해 확인해 본다.
->`sql은 늘 해 오던 일이라 빠르게 진행했다. 이번 노드는 훑어 보는 수준으로 진행했다. 이러면 안되는데...`
+>`sql은 늘 해 오던 일이라 빠르게 진행했다. 이번 노드는 훑어 보는 수준으로 진행했다. 이러면 안되는데...
+TensorFlow2에서 딥러닝 모델을 작성하는 방법에는 크게 3가지가 존재하는데, 바로 Sequential, Functional, 그리고 Model Subclassing이다. Sequential은 입력부터 출력까지 레이어를 그야말로 sequential하게 차곡차곡 add해서 쌓아나가기만 하면 된다. Functional은 함수형으로 모델을 구성하는 것이고, Subclassing은 자유로운 모델링을 진행할 수 있다.`
 
 ## EXPLORATION  
 #### 13. 어제 오른 내 주식, 과연 내일은?
