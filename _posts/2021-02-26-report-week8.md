@@ -29,7 +29,7 @@ ARIMA 시계열 분석법을 배우고, 직접 주식 시세를 예측해 본다
 
 ## DeepML   
 CS231n Lecture 10: Training Neural Networks I
->`Activation Function, Weight Initalization, Regularization 등 Neural Networks를 어떻게 훈련시킬 수 있는지 알아보는 시간 이였다. cs231n을 공부하면 늘 드는 생각이지만 결국 최근에 나와서 많이 쓰는 게 가장 좋은 거 같다. 여러가지 잔뜩 설명하지만 결국에는 1,2개의 기능을 추천 받게 된다. 따로 크게 생각 안 해도 된다는 것에 저스틴 존스박사님께 감사하다.`
+>`Activation Function, Weight Initalization, Regularization 등 Neural Networks를 어떻게 훈련시킬 수 있는지 알아보는 시간 이였다. cs231n을 공부하면 늘 드는 생각이지만 결국 최근에 나와서 많이 쓰는 게 가장 좋은 거 같다. 여러가지 잔뜩 설명하지만 결국에는 1,2개의 기능을 추천 받게 된다. 따로 크게 생각 안 해도 된다는 것에 저스틴 존슨박사님께 감사하다.`
 
 ## 코딩마스터   
 Do it! 자료구조와 알고리즘 입문: 2. 기본 자료 구조와 배열
