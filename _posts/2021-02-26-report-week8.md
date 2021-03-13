@@ -21,9 +21,9 @@ Tensorflow V2의 표준 API로 활용되고 있는 Keras API의 model, layer 등
 TensorFlow2에서 딥러닝 모델을 작성하는 방법에는 크게 3가지가 존재하는데, 바로 Sequential, Functional, 그리고 Model Subclassing이다. Sequential은 입력부터 출력까지 레이어를 그야말로 sequential하게 차곡차곡 add해서 쌓아나가기만 하면 된다. Functional은 함수형으로 모델을 구성하는 것이고, Subclassing은 자유로운 모델링을 진행할 수 있다.`
 
 ## EXPLORATION  
-#### 13. 어제 오른 내 주식, 과연 내일은?
+#### 13. 어제 오른 내 주식, 과연 내일은? [>>프로젝트 보기](https://github.com/adele2020/ssacxaiffel/blob/main/%5BE13%5D_Stock_forecast.ipynb)
 ARIMA 시계열 분석법을 배우고, 직접 주식 시세를 예측해 본다.
-#### 14. 폐렴아 기다려라!
+#### 14. 폐렴아 기다려라! [>>프로젝트 보기](https://github.com/adele2020/ssacxaiffel/blob/main/%5BE14%5D_medical_images_cnn.ipynb)
 의료영상 기초에 대해서 배우고 의료영상 데이터를 핸들링 하는 방법에 대해서 배워 본다.
 >`노드에서 진행한 ARIMA 시계열 분석법은 내가 보아온 어떤 text 보다 제일 잘 이해가 되었다. 책도 보고, 블러그도 찾아보고, 시험도 치고, report도 제출해보았지만, 그 때 뿐 코드나 이론이 잘 기억이 나 질 않았는데, 이번 노드에서 조금은 정리된 거 같다.
 의료 영상 데이터를 다루는 노드는 내게 CV 분야 공부를 하라는 계시 같았다.`  
