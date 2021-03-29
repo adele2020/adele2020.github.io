@@ -1,6 +1,6 @@
 ---
 title:  "[9주차] Aiffel에서 인공지능 도전기"
-excerpt: ""
+excerpt: "맵리듀스 Linear Convolution 트랜스포머 Super Resolution SRGAN Training Neural Networks 검색 알고리즘"
 categories:
   - SSACxAIFFEL
 tags:
