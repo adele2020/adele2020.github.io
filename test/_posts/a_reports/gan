@@ -1,0 +1,27 @@
+Generative Adversarial Nets
+
+We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models:
+a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G.
+The training procedure for G is to maximize the probability of D making a mistake.
+This framework corresponds to a minimax two-player game.
+In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere.
+In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation.
+There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples.
+Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.
+
+우리는 두 모델을 동시에 훈련시키는 적대적 프로세스를 통해 생성 모델을 추정하기위한 새로운 프레임 워크를 제안합니다.
+데이터 분포를 캡처하는 생성 모델 G, 샘플이 G가 아닌 학습 데이터에서 나올 확률을 추정하는 차별 모델 D.
+G에 대한 훈련 절차는 D가 실수를 할 확률을 최대화하는 것입니다.
+이 프레임 워크는 미니 맥스 2 인용 게임에 해당합니다.
+임의의 함수 G와 D의 공간에는 G가 훈련 데이터 분포를 복구하고 D가 모든 곳에서 1/2에 해당하는 고유 한 솔루션이 존재합니다.
+G와 D가 다층 퍼셉트론에 의해 정의되는 경우 전체 시스템은 역전 파로 훈련 될 수 있습니다.
+학습 또는 샘플 생성 중에 Markov 체인 또는 펼쳐진 근사 추론 네트워크가 필요하지 않습니다.
+실험은 생성 된 샘플의 정 성적 및 정량적 평가를 통해 프레임 워크의 잠재력을 보여줍니다.
+
+우리는 적대적 프로세스를 통해 생성 모델을 추정하기 위한 새로운 프레임워크를 제안한다. 이 프레임워크는 데이터 분포를 포착하는 생성 모델 G와 G가 아닌 훈련 데이터에서 샘플이 나올 확률을 추정하는 차별 모델 D라는 두 가지 모델을 동시에 훈련시킨다.
+G의 훈련 절차는 D가 실수할 확률을 최대화하는 것이다.
+이 프레임워크는 최소 2인 게임과 일치한다.
+임의 함수 G와 D의 공간에는 G가 훈련 데이터 분포를 복구하고 D가 모든 곳에서 1/2에 해당하는 고유한 솔루션이 존재한다.
+G와 D가 다층 퍼셉트론에 의해 정의되는 경우, 전체 시스템은 역 전파로 훈련될 수 있다.
+훈련 또는 샘플 생성 중에 마르코프 연쇄 또는 미연동 근사 추론 네트워크가 필요하지 않다.
+실험은 생성된 샘플의 정성적 및 정량적 평가를 통해 프레임워크의 잠재력을 보여준다.

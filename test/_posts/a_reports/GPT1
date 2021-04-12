@@ -1,0 +1,19 @@
+Improving Language Understanding by Generative Pre-Training
+
+
+Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classification.
+Although large unlabeled text corpora are abundant, labeled data for learning these specific tasks is scarce, making it challenging for discriminatively trained models to perform adequately.
+We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative fine-tuning on each specific task.
+In contrast to previous approaches, we make use of task-aware input transformations during fine-tuning to achieve effective transfer while requiring minimal changes to the model architecture.
+We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding.
+Our general task-agnostic model outperforms discriminatively trained models that use architectures specifically crafted for each task, significantly improving upon the state of the art in 9 out of the 12 tasks studied.
+For instance, we achieve absolute improvements of 8.9% on commonsense reasoning (Stories Cloze Test), 5.7% on question answering (RACE), and 1.5% on textual entailment (MultiNLI).
+
+
+자연어 이해는 텍스트 포함, 질문 답변, 의미 유사성 평가 및 문서 분류와 같은 다양한 작업으로 구성됩니다.
+레이블이 지정되지 않은 큰 텍스트 말뭉치가 많지만 이러한 특정 작업을 학습하기위한 레이블이 지정된 데이터가 부족하여 차별적으로 훈련 된 모델이 적절하게 수행하기가 어렵습니다.
+레이블이 지정되지 않은 다양한 텍스트에 대한 언어 모델의 생성 적 사전 훈련과 각 특정 작업에 대한 차별적 인 미세 조정을 통해 이러한 작업에서 큰 이득을 얻을 수 있음을 보여줍니다.
+이전 접근 방식과 달리, 우리는 모델 아키텍처에 최소한의 변경 만 요구하면서 효과적인 전송을 달성하기 위해 미세 조정 중에 작업 인식 입력 변환을 사용합니다.
+우리는 자연어 이해를위한 광범위한 벤치 마크에서 접근 방식의 효과를 입증합니다.
+우리의 일반적인 작업에 구애받지 않는 모델은 각 작업에 대해 특별히 제작 된 아키텍처를 사용하는 차별적으로 훈련 된 모델보다 성능이 뛰어나며, 연구 된 12 개 작업 중 9 개에서 최신 기술을 크게 향상 시켰습니다.
+예를 들어 상식적 추론 (Stories Cloze Test)에서 8.9 %, 질문 응답 (RACE)에서 5.7 %, 텍스트 수반 (MultiNLI)에서 1.5 %의 절대적 향상을 달성했습니다.

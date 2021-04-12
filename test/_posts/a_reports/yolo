@@ -1,0 +1,35 @@
+You Only Look Once: Unified, Real-Time Object Detection
+
+We present YOLO, a new approach to object detection.
+Prior work on object detection repurposes classifiers to perform detection.
+Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities.
+A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation.
+Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
+Our unified architecture is extremely fast.
+Our base YOLO model processes images in real-time at 45 frames per second.
+A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors.
+Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background.
+Finally, YOLO learns very general representations of objects.
+It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork.
+
+객체 감지에 대한 새로운 접근 방식 인 YOLO를 소개합니다.
+물체 감지에 대한 사전 작업은 분류기를 사용하여 감지를 수행합니다.
+대신 객체 감지를 공간적으로 분리 된 경계 상자 및 관련 클래스 확률에 대한 회귀 문제로 구성합니다.
+단일 신경망은 한 번의 평가로 전체 이미지에서 직접 경계 상자와 클래스 확률을 예측합니다.
+전체 탐지 파이프 라인이 단일 네트워크이므로 탐지 성능에 대해 직접 종단 간 최적화 할 수 있습니다.
+통합 아키텍처는 매우 빠릅니다.
+우리의 기본 YOLO 모델은 초당 45 프레임으로 실시간으로 이미지를 처리합니다.
+더 작은 네트워크 버전 인 Fast YOLO는 놀라운 초당 155 프레임을 처리하는 동시에 다른 실시간 탐지기의 mAP를 두 배로 늘립니다.
+최첨단 탐지 시스템에 비해 YOLO는 더 많은 현지화 오류를 발생 시키지만 백그라운드에서 오탐을 예측할 가능성이 적습니다.
+마지막으로 YOLO는 객체의 매우 일반적인 표현을 배웁니다.
+자연 이미지에서 아트 워크와 같은 다른 영역으로 일반화 할 때 DPM 및 R-CNN을 포함한 다른 감지 방법보다 성능이 뛰어납니다.
+
+참고 블러그 
+https://bkshin.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-YOLOYou-Only-Look-Once
+YOLO 연구진은 객체 검출(object detection)에 새로운 접근방식을 적용했습니다.
+기존의 multi-task 문제를 하나의 회귀(regression) 문제로 재정의했습니다.
+YOLO는 이미지 전체에 대해서 하나의 신경망(a single neural network)이 한 번의 계산만으로 bounding box와 클래스 확률(class probability)을 예측합니다.
+-> bounding box란 객체의 위치를 알려주기 위해 객체의 둘레를 감싼 직사각형 박스를 말합니다.
+클래스 확률이란 bounding box로 둘러싸인 객체가 어떤 클래스에 해당하는지에 관한 확률을 의미합니다.
+객체 검출 파이프라인이 하나의 신경망으로 구성되어 있으므로 end-to-end 형식입니다.
+YOLO의 통합된 모델을 굉장히 빠릅니다. (1초에 45 프레임 처리, Fast YOLO는 1초에 155 프레임 처리)

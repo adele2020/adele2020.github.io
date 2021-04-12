@@ -1,0 +1,17 @@
+Practical Deep Reinforcement Learning Approach for Stock Trading
+
+Stock trading strategy plays a crucial role in investment companies.
+However, it is challenging to obtain optimal strategy in the complex and dynamic stock market.
+We explore the potential of deep reinforcement learning to optimize stock trading strategy and thus maximize investment return.
+30 stocks are selected as our trading stocks and their daily prices are used as the training and trading market environment.
+We train a deep reinforcement learning agent and obtain an adaptive trading strategy.
+The agent’s performance is evaluated and compared with Dow Jones Industrial Average and the traditional min-variance portfolio allocation strategy.
+The proposed deep reinforcement learning approach is shown to outperform the two baselines in terms of both the Sharpe ratio and cumulative returns.
+
+주식 거래 전략은 투자 회사에서 중요한 역할을합니다.
+그러나 복잡하고 역동적 인 주식 시장에서 최적의 전략을 확보하는 것은 어려운 일입니다.
+우리는 주식 거래 전략을 최적화하여 투자 수익을 극대화하기위한 심층 강화 학습의 잠재력을 탐구합니다.
+30 종의 주식을 당사의 거래 주로 선정하고 그 일당 가격을 교육 및 거래 시장 환경으로 활용하고 있습니다.
+우리는 심층 강화 학습 에이전트를 훈련시키고 적응 형 거래 전략을 얻습니다.
+에이전트의 성과를 평가하고 Dow Jones Industrial Average 및 기존의 최소 분산 포트폴리오 할당 전략과 비교합니다.
+제안 된 심층 강화 학습 접근 방식은 Sharpe 비율과 누적 수익 측면에서 두 기준을 능가하는 것으로 나타났습니다.

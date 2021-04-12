@@ -1,0 +1,19 @@
+MobileDets: Searching for Object Detection Architectures for Mobile Accelerators
+
+Inverted bottleneck layers, which are built upon depthwise convolutions, have been the predominant building blocks in state-of-the-art object detection models on mobile devices.
+In this work, we investigate the optimality of this design pattern over a broad range of mobile accelerators by revisiting the usefulness of regular convolutions.
+We discover that regular convolutions are a potent component to boost the latency-accuracy trade-off for object detection on accelerators, provided that they are placed strategically in the network via neural architecture search.
+By incorporating regular convolutions in the search space and directly optimizing the network architectures for object detection, we obtain a family of object detection models, MobileDets, that achieve state-of-the-art results across mobile accelerators.
+On the COCO object detection task, MobileDets outperform MobileNetV3+SSDLite by 1.7 mAP at comparable mobile CPU inference latencies.
+MobileDets also outperform MobileNetV2+SSDLite by 1.9 mAP on mobile CPUs, 3.7 mAP on Google EdgeTPU, 3.4 mAP on Qualcomm Hexagon DSP and 2.7 mAP on Nvidia Jetson GPU without increasing latency.
+Moreover, MobileDets are comparable with the state-of-the-art MnasFPN on mobile CPUs even without using the feature pyramid, and achieve better mAP scores on both EdgeTPUs and DSPs with up to 2× speedup.
+Code and models are available in the TensorFlow Object Detection API [16]: https://github.com/tensorflow/models/tree/master/research/object_detection.
+
+깊이 별 컨볼 루션을 기반으로 구축 된 역 병목 레이어는 모바일 장치의 최첨단 물체 감지 모델에서 주요 구성 요소였습니다.
+이 작업에서는 규칙적인 컨볼 루션의 유용성을 다시 검토하여 광범위한 모바일 가속기에서이 디자인 패턴의 최적 성을 조사합니다.
+우리는 정규 컨볼 루션이 신경 아키텍처 검색을 통해 네트워크에 전략적으로 배치되는 경우 가속기의 객체 감지에 대한 지연 시간 정확도 절충을 강화하는 강력한 구성 요소라는 것을 발견했습니다.
+검색 공간에 규칙적인 컨볼 루션을 통합하고 객체 감지를위한 네트워크 아키텍처를 직접 최적화함으로써 모바일 가속기에서 최첨단 결과를 달성하는 객체 감지 모델 제품군 인 MobileDets를 얻습니다.
+COCO 객체 감지 작업에서 MobileDets는 유사한 모바일 CPU 추론 지연 시간에서 MobileNetV3 + SSDLite보다 1.7mAP 더 우수한 성능을 보입니다.
+또한 MobileDets는 모바일 CPU에서 1.9mAP, Google EdgeTPU에서 3.7mAP, Qualcomm Hexagon DSP에서 3.4mAP, Nvidia Jetson GPU에서 2.7mAP까지 대기 시간을 늘리지 않고 MobileNetV2 + SSDLite보다 성능이 뛰어납니다.
+또한 MobileDets는 기능 피라미드를 사용하지 않아도 모바일 CPU의 최신 MnasFPN과 비교할 수 있으며 최대 2 배의 속도 향상으로 EdgeTPU 및 DSP 모두에서 더 나은 mAP 점수를 달성합니다.
+코드와 모델은 TensorFlow Object Detection API [16] : https://github.com/tensorflow/models/tree/master/research/object_detection에서 사용할 수 있습니다.

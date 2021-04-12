@@ -1,0 +1,13 @@
+A Neural Attention Model for Abstractive Sentence Summarization
+
+Summarization based on text extraction is inherently limited, but generation-style abstractive methods have proven challenging to build.
+In this work, we propose a fully data-driven approach to abstractive sentence summarization.
+Our method utilizes a local attention-based model that generates each word of the summary conditioned on the input sentence.
+While the model is structurally simple, it can easily be trained end-to-end and scales to a large amount of training data.
+The model shows significant performance gains on the DUC-2004 shared task compared with several strong baselines.
+
+텍스트 추출을 기반으로 한 요약은 본질적으로 제한적이지만 생성 스타일의 추상적인 방법은 구축하기 어려운 것으로 입증되었습니다.
+이 작업에서 우리는 추상적인 문장 요약에 대한 완전한 데이터 기반 접근 방식을 제안합니다.
+우리의 방법은 입력 문장을 조건으로 요약의 각 단어를 생성하는 로컬주의 기반 모델을 사용합니다.
+모델은 구조적으로 단순하지만 엔드 투 엔드로 쉽게 학습 할 수 있으며 많은 양의 학습 데이터로 확장 할 수 있습니다.
+이 모델은 여러 강력한 기준에 비해 DUC-2004 공유 작업에서 상당한 성능 향상을 보여줍니다.

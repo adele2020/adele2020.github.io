@@ -1,0 +1,20 @@
+Deep contextualized word representations
+
+
+We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy).
+Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pretrained on a large text corpus.
+We show that these representations can be easily added to existing models and significantly improve the state of the art across six challenging NLP problems, including question answering, textual entailment and sentiment analysis.
+We also present an analysis showing that exposing the deep internals of the pre-trained network is crucial, allowing downstream models to mix different types of semi-supervision signals.
+
+
+우리는 (1) 단어 사용의 복잡한 특성 (예 : 구문 및 의미론)과 (2) 이러한 사용이 언어 적 컨텍스트에 따라 어떻게 다른지 (즉, 다의어 모델링)를 모델링하는 새로운 유형의 심층 문맥 화 된 단어 표현을 소개합니다.
+우리의 단어 벡터는 큰 텍스트 말뭉치에서 사전 훈련 된 깊은 양방향 언어 모델 (biLM)의 내부 상태에 대해 학습 된 기능입니다.
+우리는 이러한 표현이 기존 모델에 쉽게 추가 될 수 있으며 질문 답변, 텍스트 수반 및 감정 분석을 포함하여 6 가지 도전적인 NLP 문제에서 최첨단 기술을 크게 향상시킬 수 있음을 보여줍니다.
+또한 사전 훈련 된 네트워크의 깊은 내부를 노출하는 것이 중요하므로 다운 스트림 모델이 다양한 유형의 세미 감독 신호를 혼합 할 수 있음을 보여주는 분석을 제시합니다.
+
+참고 블러그
+https://greeksharifa.github.io/nlp(natural%20language%20processing)%20/%20rnns/2019/08/20/ELMo-Deep-contextualized-word-representations/
+이 논문에서는 단어 사용의 복잡한 특성(문법 및 의미)과 이들이 언어적 문맥에서 어떻게 사용되는지(다의성)를 모델링하는, 새로운 종류의 문맥과 깊게 연관된 단어표현(Deep contextualized word representation)을 소개한다.
+이 논문에서의 word vector는 큰 말뭉치에서 학습된 deep bidirectional language model(biLM)의 내부 상태로부터 학습한다.
+이 표현(representation)은 이미 존재하는 모델에 쉽게 불일 수 있으며 이로써 QA 등 6개의 도전적인 NLP 문제에서 상당히 향상된 state-of-the-art 결과를 얻을 수 있음을 보였다.
+또한 기학습된(pre-trained) 네트워크의 깊은 내부를 살펴보는 분석도 보인다.

@@ -1,0 +1,18 @@
+U-Net: Convolutional Networks for Biomedical Image Segmentation
+
+There is large consent that successful training of deep networks requires many thousand annotated training samples.
+In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently.
+The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization.
+We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks.
+Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin.
+Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU.
+The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net.
+
+
+딥 네트워크의 성공적인 훈련에는 수천 개의 주석이 달린 훈련 샘플이 필요하다는 큰 동의가 있습니다.
+이 백서에서는 사용 가능한 주석이 달린 샘플을보다 효율적으로 사용하기 위해 데이터 증가의 강력한 사용에 의존하는 네트워크 및 훈련 전략을 제시합니다.
+아키텍처는 컨텍스트를 캡처하기위한 계약 경로와 정확한 현지화를 가능하게하는 대칭 확장 경로로 구성됩니다.
+우리는 이러한 네트워크가 매우 적은 이미지에서 종단 간 훈련 될 수 있으며 전자 현미경 스택에서 신경 구조의 세분화를위한 ISBI 과제에서 이전의 최선의 방법 (슬라이딩 윈도우 컨볼 루션 네트워크)을 능가한다는 것을 보여줍니다.
+투과광 현미경 이미지 (위상 대비 및 DIC)에 대해 훈련 된 동일한 네트워크를 사용하여 이러한 범주에서 2015 년 ISBI 세포 추적 챌린지에서 큰 차이로 우승했습니다.
+또한 네트워크가 빠릅니다. 512x512 이미지 분할은 최근 GPU에서 1 초도 채 걸리지 않습니다.
+전체 구현 (Caffe 기반) 및 훈련 된 네트워크는 http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net에서 사용할 수 있습니다.

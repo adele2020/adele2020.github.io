@@ -1,0 +1,16 @@
+Zero-Shot Text-to-Image Generation
+
+Text-to-image generation has traditionally focused on finding better modeling assumptions for training on a fixed dataset.
+These assumptions might involve complex architectures, auxiliary losses, or side information such as object part labels or segmentation masks supplied during training.
+We describe a simple approach for this task based on a transformer that autoregressively models the text and image tokens as a single stream of data.
+With sufficient data and scale, our approach is competitive with previous domain-specific models when evaluated in a zero-shot fashion.
+
+텍스트-이미지 생성은 전통적으로 고정 된 데이터 세트에 대한 학습을위한 더 나은 모델링 가정을 찾는 데 초점을 두었습니다.
+이러한 가정에는 복잡한 아키텍처, 보조 손실 또는 학습 중에 제공된 개체 부품 레이블 또는 세분화 마스크와 같은 부가 정보가 포함될 수 있습니다.
+텍스트 및 이미지 토큰을 단일 데이터 스트림으로 자동 회귀 모델링하는 변환기를 기반으로이 작업에 대한 간단한 접근 방식을 설명합니다.
+충분한 데이터와 규모를 갖춘 우리의 접근 방식은 제로 샷 방식으로 평가할 때 이전 도메인 별 모델과 경쟁합니다.
+
+텍스트-이미지 생성은 전통적으로 고정 데이터 세트에 대한 교육을 위한 더 나은 모델링 가정을 찾는 데 중점을 두었다.
+이러한 가정은 훈련 중에 제공되는 객체 부품 라벨 또는 분할 마스크와 같은 복잡한 구조, 보조 손실 또는 측면 정보를 포함할 수 있다.
+텍스트 및 이미지 토큰을 단일 데이터 스트림으로 자동 회귀적으로 모델링하는 변압기를 기반으로 이 작업에 대한 간단한 접근 방식을 설명한다.
+충분한 데이터와 규모로, 우리의 접근 방식은 제로샷 방식으로 평가될 때 이전의 도메인별 모델과 경쟁적이다.

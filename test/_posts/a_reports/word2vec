@@ -1,0 +1,13 @@
+Efficient Estimation of Word Representations in Vector Space
+
+We propose two novel model architectures for computing continuous vector representations of words from very large data sets.
+The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks.
+We observe large improvements in accuracy at much lower computational cost, i.e.
+it takes less than a day to learn high quality word vectors from a 1.6 billion words data set.
+Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities.
+
+우리는 매우 큰 데이터 세트에서 단어의 연속적인 벡터 표현을 계산하기위한 두 가지 새로운 모델 아키텍처를 제안합니다.
+이러한 표현의 품질은 단어 유사성 작업에서 측정되며 결과는 다양한 유형의 신경망을 기반으로 한 이전에 가장 우수한 기술과 비교됩니다.
+훨씬 낮은 계산 비용으로 정확도가 크게 향상됩니다.
+16 억 단어 데이터 세트에서 고품질 단어 벡터를 학습하는 데 하루도 걸리지 않습니다.
+또한 이러한 벡터가 구문 및 의미 단어 유사성을 측정하기위한 테스트 세트에서 최첨단 성능을 제공함을 보여줍니다.

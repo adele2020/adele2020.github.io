@@ -1,0 +1,21 @@
+TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation
+
+Abstract—Pixel-wise image segmentation is demanding task in computer vision.
+Classical U-Net architectures composed of encoders and decoders are very popular for segmentation of medical images, satellite images etc.
+Typically, neural network initialized with weights from a network pre-trained on a large data set like ImageNet shows better performance than those trained from scratch on a small dataset.
+In some practical applications, particularly in medicine and traffic safety, the accuracy of the models is of utmost importance.
+In this paper, we demonstrate how the U-Net type architecture can be improved by the use of the pretrained encoder.
+Our code and corresponding pre-trained weights are publicly available at https://github.com/ternaus/TernausNet.
+We compare three weight initialization schemes: LeCun uniform, the encoder with weights from VGG11 and full network trained on the Carvana dataset.
+This network architecture was a part of the winning solution (1st out of 735) in the Kaggle: Carvana Image Masking Challenge.
+Keywords—Computer Vision, Image Segmentation, Image Recognition, Deep learning, Medical Image Processing, Satellite Imagery.
+
+요약 — 픽셀 단위 이미지 분할은 컴퓨터 비전에서 까다로운 작업입니다.
+인코더와 디코더로 구성된 고전적인 U-Net 아키텍처는 의료 이미지, 위성 이미지 등의 세분화에 매우 인기가 있습니다.
+일반적으로 ImageNet과 같은 대규모 데이터 세트에서 사전 훈련 된 네트워크의 가중치로 초기화 된 신경망은 작은 데이터 세트에서 처음부터 훈련 된 것보다 더 나은 성능을 보여줍니다.
+일부 실제 응용 분야, 특히 의학 및 교통 안전 분야에서는 모델의 정확성이 가장 중요합니다.
+이 백서에서는 사전 훈련 된 인코더를 사용하여 U-Net 유형 아키텍처를 개선 할 수있는 방법을 보여줍니다.
+우리의 코드와 사전 훈련 된 가중치는 https://github.com/ternaus/TernausNet에서 공개적으로 사용할 수 있습니다.
+세 가지 가중치 초기화 방식을 비교합니다. LeCun uniform, VGG11의 가중치가있는 인코더 및 Carvana 데이터 세트에서 훈련 된 전체 네트워크입니다.
+이 네트워크 아키텍처는 Kaggle : Carvana Image Masking Challenge에서 우승 한 솔루션 (735 개 중 1 위)의 일부였습니다.
+키워드 — 컴퓨터 비전, 이미지 분할, 이미지 인식, 딥 러닝, 의료 이미지 처리, 위성 이미지.

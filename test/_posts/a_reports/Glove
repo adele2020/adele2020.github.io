@@ -1,0 +1,15 @@
+GloVe: Global Vectors for Word Representation
+
+Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque.
+We analyze and make explicit the model properties needed for such regularities to emerge in word vectors.
+The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods.
+Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus.
+The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task.
+It also outperforms related models on similarity tasks and named entity recognition.
+
+단어의 벡터 공간 표현을 학습하는 최근 방법은 벡터 산술을 사용하여 세밀한 의미 체계와 구문 규칙을 캡처하는 데 성공했지만 이러한 규칙의 기원은 불투명하게 남아 있습니다.
+우리는 그러한 규칙 성이 단어 벡터에 나타나기 위해 필요한 모델 속성을 분석하고 명시합니다.
+그 결과 문헌에서 두 가지 주요 모델 군의 장점 인 글로벌 매트릭스 분해 및 로컬 컨텍스트 창 방법을 결합한 새로운 글로벌 로그 비선형 회귀 모델이 탄생했습니다.
+우리의 모델은 전체 희소 행렬 또는 큰 말뭉치의 개별 컨텍스트 창에서가 아니라 단어-단어 동시 발생 행렬의 0이 아닌 요소에 대해서만 학습함으로써 통계 정보를 효율적으로 활용합니다.
+이 모델은 최근 단어 유추 작업에서 75 %의 성능으로 입증 된 바와 같이 의미있는 하위 구조가있는 벡터 공간을 생성합니다.
+또한 유사성 작업 및 명명 된 엔티티 인식에서 관련 모델을 능가합니다.

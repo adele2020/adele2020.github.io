@@ -1,0 +1,21 @@
+A Neural Probabilistic Language Model
+
+A goal of statistical language modeling is to learn the joint probability function of sequences of words in a language.
+This is intrinsically difficult because of the curse of dimensionality: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training.
+Traditional but very successful approaches based on n-grams obtain generalization by concatenating very short overlapping sequences seen in the training set.
+We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.
+The model learns simultaneously (1) a distributed representation for each word along with (2) the probability function for word sequences, expressed in terms of these representations.
+Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence.
+Training such large models (with millions of parameters) within a reasonable time is itself a significant challenge.
+We report on experiments using neural networks for the probability function, showing on two text corpora that the proposed approach significantly improves on state-of-the-art n-gram models, and that the proposed approach allows to take advantage of longer contexts.
+Keywords: Statistical language modeling, artificial neural networks, distributed representation, curse of dimensionality
+
+통계적 언어 모델링의 목표는 언어에서 단어 시퀀스의 공동 확률 함수를 학습하는 것입니다.
+이것은 차원의 저주로 인해 본질적으로 어렵습니다. 모델이 테스트 될 단어 시퀀스는 훈련 중에 보이는 모든 단어 시퀀스와 다를 수 있습니다.
+n- 그램을 기반으로 한 전통적이지만 매우 성공적인 접근 방식은 훈련 세트에서 볼 수있는 매우 짧은 중첩 시퀀스를 연결하여 일반화를 얻습니다.
+우리는 각 훈련 문장이 의미 적으로 인접한 문장의 지수 수에 대해 모델에 알릴 수 있도록 단어에 대한 분산 표현을 학습하여 차원의 저주에 맞서 싸울 것을 제안합니다.
+모델은 (1) 각 단어에 대한 분산 표현과 (2) 이러한 표현으로 표현 된 단어 시퀀스에 대한 확률 함수를 동시에 학습합니다.
+일반화는 이전에 본 적이없는 일련의 단어가 이미 본 문장을 구성하는 단어와 유사한 (가까운 표현이 있다는 의미에서) 단어로 만들어지면 높은 확률을 얻기 때문에 얻어집니다.
+합리적인 시간 내에 이러한 대규모 모델 (수백만 개의 매개 변수 포함)을 훈련하는 것은 그 자체로 중요한 과제입니다.
+우리는 확률 함수에 신경망을 사용하는 실험에 대해보고하여 제안 된 접근 방식이 최첨단 n-gram 모델에서 크게 향상되고 제안 된 접근 방식이 더 긴 컨텍스트를 활용할 수 있음을 두 개의 텍스트 말뭉치에서 보여줍니다.
+키워드 : 통계적 언어 모델링, 인공 신경망, 분산 표현, 차원의 저주

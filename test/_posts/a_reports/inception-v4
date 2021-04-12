@@ -1,0 +1,26 @@
+Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+
+Very deep convolutional networks have been central to the largest advances in image recognition performance in recent years.
+One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost.
+Recently, the introduction of residual connections in conjunction with a more traditional architecture has yielded state-of-the-art performance in the 2015 ILSVRC challenge;
+its performance was similar to the latest generation Inception-v3 network.
+This raises the question of whether there are any benefit in combining the Inception architecture with residual connections.
+Here we give clear empirical evidence that training with residual connections accelerates the training of Inception networks significantly.
+There is also some evidence of residual Inception networks outperforming similarly expensive Inception networks without residual connections by a thin margin.
+We also present several new streamlined architectures for both residual and non-residual Inception networks.
+These variations improve the single-frame recognition performance on the ILSVRC 2012 classification task significantly.
+We further demonstrate how proper activation scaling stabilizes the training of very wide residual Inception networks.
+With an ensemble of three residual and one Inception-v4, we achieve 3.08% top-5 error on the test set of the ImageNet classification (CLS) challenge.
+
+
+최근 몇 년간 이미지 인식 성능에서 가장 큰 발전의 핵심은 매우 딥 컨볼 루션 네트워크였습니다.
+한 가지 예는 비교적 낮은 계산 비용으로 매우 우수한 성능을 달성하는 것으로 입증 된 Inception 아키텍처입니다.
+최근에보다 전통적인 아키텍처와 결합 된 잔여 연결의 도입은 2015 ILSVRC 챌린지에서 최첨단 성능을 제공했습니다.
+성능은 최신 Inception-v3 네트워크와 비슷했습니다.
+이것은 Inception 아키텍처를 잔여 연결과 결합하는 데 어떤 이점이 있는지에 대한 질문을 제기합니다.
+여기서는 잔여 연결을 사용한 훈련이 Inception 네트워크의 훈련을 크게 가속화한다는 명확한 경험적 증거를 제공합니다.
+또한 잔여 Inception 네트워크가 잔여 연결없이 유사하게 비싼 Inception 네트워크를 능가한다는 증거도 있습니다.
+또한 잔여 및 비 잔류 Inception 네트워크를위한 몇 가지 새로운 간소화 된 아키텍처를 제시합니다.
+이러한 변형은 ILSVRC 2012 분류 작업에서 단일 프레임 인식 성능을 크게 향상시킵니다.
+또한 적절한 활성화 스케일링이 매우 광범위한 잔여 Inception 네트워크의 훈련을 안정화하는 방법을 보여줍니다.
+잔차 3 개와 Inception-v4 1 개의 앙상블을 사용하여 ImageNet 분류 (CLS) 챌린지의 테스트 세트에서 3.08 % 상위 5 개 오류를 달성합니다.

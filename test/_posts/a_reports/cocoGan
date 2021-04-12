@@ -1,0 +1,23 @@
+COCO-GAN: Generation by Parts via Conditional Coordinating
+
+Humans can only interact with part of the surrounding environment due to biological restrictions.
+Therefore, we learn to reason the spatial relationships across a series of observations to piece together the surrounding environment.
+Inspired by such behavior and the fact that machines also have computational constraints, we propose COnditional COordinate GAN (COCO-GAN) of which the generator generates images by parts based on their spatial coordinates as the condition.
+On the other hand, the discriminator learns to justify realism across multiple assembled patches by global coherence, local appearance, and edge-crossing continuity.
+Despite the full images are never generated during training, we show that COCO-GAN can produce state-of-the-art-quality full images during inference.
+We further demonstrate a variety of novel applications enabled by teaching the network to be aware of coordinates.
+First, we perform extrapolation to the learned coordinate manifold and generate off-the-boundary patches.
+Combining with the originally generated full image, COCO-GAN can produce images that are larger than training samples, which we called “beyond-boundary generation”.
+We then showcase panorama generation within a cylindrical coordinate system that inherently preserves horizontally cyclic topology.
+On the computation side, COCO-GAN has a built-in divide-and-conquer paradigm that reduces memory requisition during training and inference, provides highparallelism, and can generate parts of images on-demand.
+
+인간은 생물학적 제한으로 인해 주변 환경의 일부와 만 상호 작용할 수 있습니다.
+따라서 우리는 주변 환경을 결합하기 위해 일련의 관찰에 걸친 공간 관계를 추론하는 방법을 배웁니다.
+이러한 동작과 기계에도 계산 제약이 있다는 사실에서 영감을 받아 생성기가 공간 좌표를 조건으로하여 부품별로 이미지를 생성하는 COCO-GAN (COnditional COordinate GAN)을 제안합니다.
+한편, 판별자는 글로벌 일관성, 로컬 외관 및 에지 교차 연속성에 의해 여러 조립 된 패치에서 사실성을 정당화하는 방법을 배웁니다.
+훈련 중에는 전체 이미지가 생성되지 않지만 COCO-GAN은 추론 중에 최첨단 품질의 전체 이미지를 생성 할 수 있음을 보여줍니다.
+우리는 네트워크가 좌표를 인식하도록 교육함으로써 가능해진 다양한 새로운 응용 프로그램을 추가로 보여줍니다.
+먼저 학습 된 좌표 매니 폴드에 대한 외삽을 수행하고 경계를 벗어난 패치를 생성합니다.
+COCO-GAN은 원래 생성 된 전체 이미지와 결합하여 "경계를 넘어서는 생성"이라고하는 학습 샘플보다 큰 이미지를 생성 할 수 있습니다.
+그런 다음 본질적으로 수평 순환 토폴로지를 보존하는 원통형 좌표계 내에서 파노라마 생성을 보여줍니다.
+계산 측면에서 COCO-GAN은 학습 및 추론 중 메모리 요구를 줄이고 높은 병렬성을 제공하며 주문형 이미지의 일부를 생성 할 수있는 분할 및 정복 패러다임을 내장하고 있습니다.

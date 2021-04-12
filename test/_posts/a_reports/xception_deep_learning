@@ -1,0 +1,14 @@
+Xception: Deep Learning with Depthwise Separable Convolutions
+
+We present an interpretation of Inception modules in convolutional neural networks as being an intermediate step in-between regular convolution and the depthwise separable convolution operation (a depthwise convolution followed by a pointwise convolution).
+In this light, a depthwise separable convolution can be understood as an Inception module with a maximally large number of towers.
+This observation leads us to propose a novel deep convolutional neural architecture inspired by Inception, where Inception modules have been replaced with depthwise separable convolutions.
+We show that this architecture, dubbed Xception, slightly outperforms Inception V3 on the ImageNet dataset (which Inception V3 was designed for), and significantly outperforms Inception V3 on a larger image classification dataset comprising 350 million images and 17,000 classes.
+Since the Xception architecture has the same number of parameters as Inception V3, the performance gains are not due to increased capacity but rather to a more efficient use of model parameters.
+
+
+컨볼 루션 신경망에서 Inception 모듈을 정규 컨볼 루션과 깊이 별 분리 가능한 컨볼 루션 연산 (깊이 별 컨볼 루션 다음에 점별 컨볼 루션) 사이의 중간 단계로 해석합니다.
+이러한 관점에서 깊이 별 분리형 컨볼 루션은 최대 수의 타워가있는 Inception 모듈로 이해 될 수 있습니다.
+이 관찰을 통해 Inception에서 영감을 얻은 새로운 딥 컨볼 루션 신경 아키텍처를 제안 할 수 있습니다. 여기서 Inception 모듈은 깊이 분리 가능한 컨볼 루션으로 대체되었습니다.
+Xception이라고하는이 아키텍처는 ImageNet 데이터 세트 (Inception V3가 설계됨)에서 Inception V3보다 약간 우수한 성능을 보이며 3 억 5 천만 개의 이미지와 17,000 개의 클래스로 구성된 더 큰 이미지 분류 데이터 세트에서 Inception V3보다 훨씬 우수한 성능을 보입니다.
+Xception 아키텍처는 Inception V3와 동일한 수의 매개 변수를 가지고 있기 때문에 성능 향상은 용량 증가가 아니라 모델 매개 변수의보다 효율적인 사용 때문입니다.

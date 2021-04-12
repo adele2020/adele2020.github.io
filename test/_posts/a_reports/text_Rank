@@ -1,0 +1,8 @@
+TextRank: Bringing Order into Texts
+
+
+In this paper, we introduce TextRank – a graph-based ranking model for text processing, and show how this model can be successfully used in natural language applications.
+In particular, we propose two innovative unsupervised methods for keyword and sentence extraction, and show that the results obtained compare favorably with previously published results on established benchmarks.
+
+이 백서에서는 텍스트 처리를위한 그래프 기반 순위 모델 인 TextRank를 소개하고이 모델이 자연어 응용 프로그램에서 어떻게 성공적으로 사용될 수 있는지 보여줍니다.
+특히 키워드 및 문장 추출을위한 두 가지 혁신적인 비지도 방법을 제안하고, 획득 한 결과가 기존 벤치 마크에서 발표 된 결과와 비교해 유리하다는 것을 보여줍니다.

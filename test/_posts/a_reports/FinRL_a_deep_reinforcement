@@ -1,0 +1,27 @@
+FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance
+
+
+As deep reinforcement learning (DRL) has been recognized as an effective approach in quantitative finance, getting hands-on experiences is attractive to beginners.
+However, to train a practical DRL trading agent that decides where to trade, at what price, and what quantity involves error-prone and arduous development and debugging.
+In this paper, we introduce a DRL library FinRL that facilitates beginners to expose themselves to quantitative finance and to develop their own stock trading strategies.
+Along with easily-reproducible tutorials, FinRL library allows users to streamline their own developments and to compare with existing schemes easily.
+Within FinRL, virtual environments are configured with stock market datasets, trading agents are trained with neural networks, and extensive backtesting is analyzed via trading performance.
+Moreover, it incorporates important trading constraints such as transaction cost, market liquidity and the investor’s degree of risk-aversion.
+FinRL is featured with completeness, hands-on tutorial and reproducibility that favors beginners:
+(i) at multiple levels of time granularity, FinRL simulates trading environments across various stock markets, including NASDAQ-100, DJIA, S&P 500, HSI, SSE 50, and CSI 300;
+(ii) organized in a layered architecture with modular structure, FinRL provides fine-tuned state-ofthe-art DRL algorithms (DQN, DDPG, PPO, SAC, A2C, TD3, etc.), commonlyused reward functions and standard evaluation baselines to alleviate the debugging workloads and promote the reproducibility, and
+(iii) being highly extendable, FinRL reserves a complete set of user-import interfaces.
+Furthermore, we incorporated three application demonstrations, namely single stock trading, multiple stock trading, and portfolio allocation.
+ The FinRL library will be available on Github at link https://github.com/AI4Finance-LLC/FinRL-Library.
+
+심층 강화 학습 (DRL)이 양적 금융에서 효과적인 접근 방식으로 인식됨에 따라 실무 경험을 얻는 것은 초보자에게 매력적입니다.
+그러나 거래 할 곳, 가격, 수량을 결정하는 실용적인 DRL 거래 에이전트를 교육하려면 오류가 발생하기 쉽고 힘든 개발 및 디버깅이 포함됩니다.
+이 논문에서는 초보자가 양적 금융에 자신을 노출하고 자신의 주식 거래 전략을 개발할 수 있도록 도와주는 DRL 라이브러리 FinRL을 소개합니다.
+쉽게 재현 할 수있는 튜토리얼과 함께 FinRL 라이브러리를 사용하면 사용자가 자신의 개발을 간소화하고 기존 체계와 쉽게 비교할 수 있습니다.
+FinRL 내에서 가상 환경은 주식 시장 데이터 세트로 구성되고 거래 에이전트는 신경망으로 교육되며 거래 성과를 통해 광범위한 백 테스팅이 분석됩니다.
+또한 거래 비용, 시장 유동성 및 투자자의 위험 회피 정도와 같은 중요한 거래 제약을 통합합니다.
+FinRL은 초보자를위한 완전성, 실습 튜토리얼 및 재현성을 제공합니다.
+(i) 여러 수준의 시간 단위에서 FinRL은 NASDAQ-100, DJIA, S & P 500, HSI, SSE 50 및 CSI 300을 포함한 다양한 주식 시장의 거래 환경을 시뮬레이션합니다.
+(ii) 모듈 식 구조의 계층화 된 아키텍처로 구성된 FinRL은 미세 조정 된 최첨단 DRL 알고리즘 (DQN, DDPG, PPO, SAC, A2C, TD3 등), 일반적으로 사용되는 보상 함수 및 표준 평가 기준선을 제공하여 완화합니다. 디버깅 워크로드 및 재현성 촉진
+(iii) 확장 성이 뛰어난 FinRL은 완전한 사용자 가져 오기 인터페이스 세트를 보유합니다.
+또한 단일 주식 거래, 다중 주식 거래 및 포트폴리오 할당이라는 세 가지 응용 프로그램 데모를 통합했습니다.

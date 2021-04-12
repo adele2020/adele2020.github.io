@@ -1,0 +1,20 @@
+DEFT: Detection Embeddings for Tracking
+
+Most modern multiple object tracking (MOT) systems follow the tracking-by-detection paradigm, consisting of a detector followed by a method for associating detections into tracks.
+There is a long history in tracking of combining motion and appearance features to provide robustness to occlusions and other challenges, but typically this comes with the trade-off of a more complex and slower implementation.
+Recent successes on popular 2D tracking benchmarks indicate that top-scores can be achieved using a state-of-the-art detector and relatively simple associations relying on single-frame spatial offsets – notably outperforming contemporary methods that leverage learned appearance features to help re-identify lost tracks.
+In this paper, we propose an efficient joint detection and tracking model named DEFT, or “Detection Embeddings for Tracking.”
+
+Our approach relies on an appearance-based object matching network jointly-learned with an underlying object detection network.
+An LSTM is also added to capture motion constraints.
+DEFT has comparable accuracy and speed to the top methods on 2D online tracking leaderboards while having significant advantages in robustness when applied to more challenging tracking data. DEFT raises the bar on the nuScenes monocular 3D tracking challenge, more than doubling the performance of the previous top method.
+Code is publicly available.
+
+대부분의 현대식 다중 물체 추적 (MOT) 시스템은 탐지기를 트랙에 연결하는 방법이 뒤 따르는 탐지기로 구성된 탐지 별 추적 패러다임을 따릅니다.
+오 클루 전 및 기타 문제에 대한 견고성을 제공하기 위해 모션 및 모양 기능을 결합하는 데 오랜 역사가 있지만 일반적으로 이는 더 복잡하고 느린 구현의 절충안과 함께 제공됩니다.
+인기있는 2D 추적 벤치 마크의 최근 성공은 최첨단 탐지기와 단일 프레임 공간 오프셋에 의존하는 비교적 간단한 연관을 사용하여 최고 점수를 달성 할 수 있음을 나타냅니다. 특히 학습 된 외관 기능을 활용하여 재조정을 지원하는 최신 방법을 능가합니다. 잃어버린 트랙을 식별합니다.
+이 논문에서는 DEFT 또는 "추적을위한 감지 임베딩"이라는 효율적인 관절 감지 및 추적 모델을 제안합니다.
+우리의 접근 방식은 기본 객체 감지 네트워크와 공동 학습 된 모양 기반 객체 매칭 네트워크에 의존합니다.
+모션 제약을 포착하기 위해 LSTM도 추가되었습니다.
+DEFT는 2D 온라인 추적 리더 보드의 최고 방법과 비슷한 정확도와 속도를 제공하는 동시에 더 까다로운 추적 데이터에 적용될 때 견고성에서 상당한 이점을 제공합니다. DEFT는 nuScenes 단안 3D 추적 문제의 기준을 높여 이전 최고 방법의 성능을 두 배 이상 높였습니다.
+코드는 공개적으로 사용 가능합니다.

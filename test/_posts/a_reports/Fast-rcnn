@@ -1,0 +1,14 @@
+Fast R-CNN
+
+This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection.
+Fast R-CNN builds on previous work to efficiently classify object proposals using deep convolutional networks.
+Compared to previous work, Fast R-CNN employs several innovations to improve training and testing speed while also increasing detection accuracy.
+Fast R-CNN trains the very deep VGG16 network 9× faster than R-CNN, is 213× faster at test-time, and achieves a higher mAP on PASCAL VOC 2012. Compared to SPPnet, Fast R-CNN trains VGG16 3× faster, tests 10× faster, and is more accurate.
+Fast R-CNN is implemented in Python and C++ (using Caffe) and is available under the open-source MIT License at https://github.com/rbgirshick/fast-rcnn.
+
+
+이 논문은 물체 감지를위한 Fast Region 기반 Convolutional Network 방법 (Fast R-CNN)을 제안합니다.
+Fast R-CNN은 이전 작업을 기반으로 딥 컨볼 루션 네트워크를 사용하여 객체 제안을 효율적으로 분류합니다.
+이전 작업과 비교하여 Fast R-CNN은 몇 가지 혁신을 사용하여 학습 및 테스트 속도를 향상시키는 동시에 탐지 정확도를 높입니다.
+Fast R-CNN은 매우 깊은 VGG16 네트워크를 R-CNN보다 9 배 빠르게 훈련하고 테스트 시간에 213 배 더 빠르며 PASCAL VOC 2012에서 더 높은 mAP를 달성합니다. SPPnet에 비해 Fast R-CNN은 VGG16을 3 배 더 빠르게 훈련시킵니다. , 테스트 10 배 더 빠르며 더 정확합니다.
+Fast R-CNN은 Python 및 C ++ (Caffe 사용)로 구현되며 https://github.com/rbgirshick/fast-rcnn의 오픈 소스 MIT 라이선스에 따라 사용할 수 있습니다.

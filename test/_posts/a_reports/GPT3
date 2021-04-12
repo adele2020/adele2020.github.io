@@ -1,0 +1,24 @@
+Language Models are Few-Shot Learners
+
+Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task.
+While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples.
+By contrast, humans can generally perform a new language task from only a few examples or from simple instructions – something which current NLP systems still largely struggle to do.
+Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art finetuning approaches.
+Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting.
+For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model.
+GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic.
+At the same time, we also identify some datasets where GPT-3’s few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora.
+Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans.
+We discuss broader societal impacts of this finding and of GPT-3 in general.
+
+
+최근 작업은 많은 양의 텍스트에 대한 사전 교육과 특정 작업에 대한 미세 조정을 통해 많은 NLP 작업과 벤치 마크에서 상당한 이득을 얻었습니다.
+일반적으로 아키텍처에서는 작업에 구애받지 않지만이 방법에는 수천 또는 수만 개의 예제로 구성된 작업 별 미세 조정 데이터 세트가 필요합니다.
+대조적으로, 인간은 일반적으로 몇 가지 예 또는 간단한 지침에서 새로운 언어 작업을 수행 할 수 있습니다. 현재 NLP 시스템은 여전히 ​​수행하기 어려운 작업입니다.
+여기서 우리는 언어 모델을 확장하면 작업에 구애받지 않는 몇 번의 성능이 크게 향상되고 때로는 이전의 최첨단 미세 조정 접근 방식으로 경쟁력에 도달한다는 것을 보여줍니다.
+특히, 우리는 이전의 비 희소 언어 모델보다 10 배 더 많은 1,750 억 개의 매개 변수가있는 자기 회귀 언어 모델 인 GPT-3을 훈련하고 몇 번의 설정에서 성능을 테스트합니다.
+모든 작업에 대해 GPT-3은 그라데이션 업데이트 나 미세 조정없이 적용되며, 순수하게 모델과의 텍스트 상호 작용을 통해 지정된 작업 및 몇 번의 시연이 있습니다.
+GPT-3은 번역, 질문 응답 및 클로즈 작업을 비롯한 많은 NLP 데이터 세트에서 강력한 성능을 발휘할뿐만 아니라 단어를 풀기 같은 즉석 추론 또는 도메인 적응이 필요한 여러 작업에서 새로운 단어를 사용하여 문장 또는 3 자리 산술 수행.
+동시에 GPT-3의 몇 안되는 학습이 여전히 어려움을 겪고있는 일부 데이터 세트와 GPT-3가 대규모 웹 말뭉치에 대한 학습과 관련된 방법 론적 문제에 직면 한 일부 데이터 세트도 식별합니다.
+마지막으로 GPT-3는 인간 평가자가 인간이 작성한 기사와 구별하기 어려운 뉴스 기사 샘플을 생성 할 수 있음을 발견했습니다.
+이 결과와 GPT-3의 전반적인 사회적 영향에 대해 논의합니다.

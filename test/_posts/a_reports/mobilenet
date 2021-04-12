@@ -1,0 +1,15 @@
+MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
+
+We present a class of efficient models called MobileNets for mobile and embedded vision applications.
+MobileNets are based on a streamlined architecture that uses depthwise separable convolutions to build light weight deep neural networks.
+We introduce two simple global hyperparameters that efficiently trade off between latency and accuracy.
+These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem.
+We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification.
+We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.
+
+모바일 및 임베디드 비전 애플리케이션을위한 MobileNets라는 효율적인 모델 클래스를 제시합니다.
+MobileNet은 경량의 심층 신경망을 구축하기 위해 깊이 별 분리 가능한 컨볼 루션을 사용하는 간소화 된 아키텍처를 기반으로합니다.
+지연 시간과 정확도 사이에서 효율적으로 균형을 이루는 두 가지 간단한 글로벌 하이퍼 파라미터를 소개합니다.
+이러한 하이퍼 매개 변수를 통해 모델 빌더는 문제의 제약 조건에 따라 애플리케이션에 적합한 크기의 모델을 선택할 수 있습니다.
+우리는 리소스 및 정확도 절충에 대한 광범위한 실험을 제시하고 ImageNet 분류에서 다른 인기 모델에 비해 강력한 성능을 보여줍니다.
+그런 다음 물체 감지, 세분화 분류, 얼굴 속성 및 대규모 지리적 위치 파악을 포함한 광범위한 애플리케이션 및 사용 사례에서 MobileNet의 효과를 시연합니다.

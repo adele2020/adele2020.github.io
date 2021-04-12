@@ -1,0 +1,25 @@
+Evolution of Image Segmentation using Deep Convolutional Neural Network: A Survey
+
+From the autonomous car driving to medical diagnosis, the requirement of the task of image segmentation is everywhere.
+Segmentation of an image is one of the indispensable tasks in computer vision.
+This task is comparatively complicated than other vision tasks as it needs low-level spatial information.
+Basically, image segmentation can be of two types: semantic segmentation and instance segmentation.
+The combined version of these two basic tasks is known as panoptic segmentation.
+In the recent era, the success of deep convolutional neural networks (CNN) has influenced the field of segmentation greatly and gave us various successful models to date.
+In this survey, we are going to take a glance at the evolution of both semantic and instance segmentation work based on CNN.
+We have also specified comparative architectural details of some state-of-the-art models and discuss their training details to present a lucid understanding of hyper-parameter tuning of those models.
+We have also drawn a comparison among the performance of those models on different datasets.
+Lastly, we have given a glimpse of some state-of-the-art panoptic segmentation models.
+Keywords: Convolutional Neural Network, Deep Learning, Semantic Segmentation, Instance Segmentation, Panoptic Segmentation, Survey
+
+자율 주행에서 의료 진단에 이르기까지 이미지 분할 작업의 요구 사항은 어디에나 있습니다.
+이미지 분할은 컴퓨터 비전에서 없어서는 안될 작업 중 하나입니다.
+이 작업은 낮은 수준의 공간 정보가 필요하기 때문에 다른 비전 작업보다 비교적 복잡합니다.
+기본적으로 이미지 분할은 의미 론적 분할과 인스턴스 분할의 두 가지 유형이 될 수 있습니다.
+이 두 가지 기본 작업의 결합 된 버전을 파노라마 분할이라고합니다.
+최근에 딥 컨볼 루션 신경망 (CNN)의 성공은 세분화 분야에 큰 영향을 미쳤으며 현재까지 다양한 성공적인 모델을 제공했습니다.
+이 설문 조사에서는 CNN을 기반으로 한 시맨틱 및 인스턴스 세분화 작업의 진화를 한 눈에 볼 것입니다.
+또한 일부 최첨단 모델의 비교 아키텍처 세부 정보를 지정하고 해당 모델의 하이퍼 매개 변수 조정에 대한 명쾌한 이해를 제공하기 위해 훈련 세부 정보를 논의했습니다.
+또한 다른 데이터 세트에서 해당 모델의 성능을 비교했습니다.
+마지막으로, 우리는 몇 가지 최첨단 panoptic 분할 모델을 살펴 보았습니다.
+키워드 : Convolutional Neural Network, Deep Learning, Semantic Segmentation, Instance Segmentation, Panoptic Segmentation, Survey

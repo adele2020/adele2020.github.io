@@ -1,0 +1,18 @@
+Rich feature hierarchies for accurate object detection and semantic segmentation
+
+Object detection performance, as measured on the canonical PASCAL VOC dataset, has plateaued in the last few years.
+The best-performing methods are complex ensemble systems that typically combine multiple low-level image features with high-level context.
+In this paper, we propose a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30% relative to the previous best result on VOC 2012—achieving a mAP of 53.3%.
+Our approach combines two key insights: (1) one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects and (2) when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost.
+Since we combine region proposals with CNNs, we call our method R-CNN: Regions with CNN features.
+ also present experiments that provide insight into what the network learns, revealing a rich hierarchy of image features.
+ Source code for the complete system is available at http://www.cs.berkeley.edu/˜rbg/rcnn.
+
+
+ 표준 PASCAL VOC 데이터 세트에서 측정 한 물체 감지 성능은 지난 몇 년 동안 정체되었습니다.
+ 가장 성능이 좋은 방법은 일반적으로 여러 저수준 이미지 기능과 고수준 컨텍스트를 결합하는 복잡한 앙상블 시스템입니다.
+ 이 논문에서 우리는 VOC 2012에서 이전의 최고 결과에 비해 평균 평균 정밀도 (mAP)를 30 % 이상 향상시켜 53.3 %의 mAP를 달성하는 간단하고 확장 가능한 탐지 알고리즘을 제안합니다.
+ 우리의 접근 방식은 두 가지 주요 통찰력을 결합합니다. (1) 하나는 객체를 지역화하고 분할하기 위해 상향식 영역 제안에 고용량 컨볼 루션 신경망 (CNN)을 적용 할 수 있으며 (2) 레이블이 지정된 훈련 데이터가 부족할 때 감독되는 사전 훈련입니다. 보조 작업의 경우 도메인 별 미세 조정을 수행하면 성능이 크게 향상됩니다.
+ 지역 제안을 CNN과 결합하기 때문에 우리는 방법을 R-CNN : CNN 기능이있는 지역이라고 부릅니다.
+  또한 네트워크가 학습 한 내용에 대한 통찰력을 제공하는 실험을 제시하여 풍부한 이미지 기능 계층을 보여줍니다.
+  전체 시스템의 소스 코드는 http://www.cs.berkeley.edu/~rbg/rcnn에서 확인할 수 있습니다.

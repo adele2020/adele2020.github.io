@@ -1,0 +1,17 @@
+PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud
+
+In this paper, we propose PointRCNN for 3D object detection from raw point cloud.
+The whole framework is composed of two stages: stage-1 for the bottom-up 3D proposal generation and stage-2 for refining proposals in the canonical coordinates to obtain the final detection results.
+Instead of generating proposals from RGB image or projecting point cloud to bird’s view or voxels as previous methods do, our stage-1 sub-network directly generates a small number of high-quality 3D proposals from point cloud in a bottom-up manner via segmenting the point cloud of the whole scene into foreground points and background.
+The stage-2 sub-network transforms the pooled points of each proposal to canonical coordinates to learn better local spatial features, which is combined with global semantic features of each point learned in stage-1 for accurate box refinement and confidence prediction.
+Extensive experiments on the 3D detection benchmark of KITTI dataset show that our proposed architecture outperforms state-of-the-art methods with remarkable margins by using only point cloud as input.
+The code is available at https://github.com/sshaoshuai/PointRCNN.
+
+PointRCNN : 포인트 클라우드에서 3D 객체 제안 생성 및 감지
+
+이 논문에서는 원시 포인트 클라우드에서 3D 물체 감지를위한 PointRCNN을 제안합니다.
+전체 프레임 워크는 상향식 3D 제안 생성을위한 1 단계와 최종 감지 결과를 얻기 위해 표준 좌표에서 제안을 구체화하는 2 단계로 구성됩니다.
+RGB 이미지에서 제안을 생성하거나 이전 방법처럼 포인트 클라우드를 조감도 또는 복셀로 투영하는 대신, 1 단계 서브 네트워크는 세그먼트를 통해 상향식 방식으로 포인트 클라우드에서 소수의 고품질 3D 제안을 직접 생성합니다. 전체 장면의 점 구름을 전경 점과 배경으로 만듭니다.
+2 단계 하위 네트워크는 각 제안의 풀링 된 지점을 표준 좌표로 변환하여 더 나은 로컬 공간 특성을 학습하며, 이는 정확한 상자 개선 및 신뢰 예측을 위해 1 단계에서 학습 된 각 지점의 전역 의미 특성과 결합됩니다.
+KITTI 데이터 세트의 3D 탐지 벤치 마크에 대한 광범위한 실험은 우리가 제안한 아키텍처가 포인트 클라우드만을 입력으로 사용하여 놀라운 마진으로 최첨단 방법을 능가한다는 것을 보여줍니다.
+코드는 https://github.com/sshaoshuai/PointRCNN에서 확인할 수 있습니다.

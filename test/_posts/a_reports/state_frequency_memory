@@ -1,0 +1,15 @@
+State-Frequency Memory Recurrent Neural Networks
+
+Modeling temporal sequences plays a fundamental role in various modern applications and has drawn more and more attentions in the machine learning community.
+Among those efforts on improving the capability to represent temporal data, the Long Short-Term Memory (LSTM) has achieved great success in many areas.
+Although the LSTM can capture long-range dependency in the time domain, it does not explicitly model the pattern occurrences in the frequency domain that plays an important role in tracking and predicting data points over various time cycles.
+We propose the State-Frequency Memory (SFM), a novel recurrent architecture that allows to separate dynamic patterns across different frequency components and their impacts on modeling the temporal contexts of input sequences.
+By jointly decomposing memorized dynamics into statefrequency components, the SFM is able to offer a fine-grained analysis of temporal sequences by capturing the dependency of uncovered patterns in both time and frequency domains.
+Evaluations on several temporal modeling tasks demonstrate the SFM can yield competitive performances, in particular as compared with the state-of-the-art LSTM models.
+
+시간 시퀀스 모델링은 다양한 최신 애플리케이션에서 기본적인 역할을하며 머신 러닝 커뮤니티에서 점점 더 많은 관심을 끌고 있습니다.
+시간 데이터를 표현하는 능력을 향상시키기위한 이러한 노력 중 장기 단기 기억 (LSTM)은 많은 분야에서 큰 성공을 거두었습니다.
+LSTM은 시간 도메인에서 장거리 종속성을 캡처 할 수 있지만 다양한 시간주기에 걸쳐 데이터 포인트를 추적하고 예측하는 데 중요한 역할을하는 주파수 도메인의 패턴 발생을 명시 적으로 모델링하지는 않습니다.
+우리는 서로 다른 주파수 구성 요소에서 동적 패턴을 분리하고 입력 시퀀스의 시간적 컨텍스트를 모델링하는 데 미치는 영향을 허용하는 새로운 반복 아키텍처 인 SFM (State-Frequency Memory)을 제안합니다.
+기억 된 역학을 상태 주파수 구성 요소로 공동 분해함으로써 SFM은 시간 및 주파수 도메인 모두에서 발견되지 않은 패턴의 종속성을 캡처하여 시간 시퀀스의 세분화 된 분석을 제공 할 수 있습니다.
+여러 시간 모델링 작업에 대한 평가는 SFM이 특히 최첨단 LSTM 모델과 비교할 때 경쟁 성능을 산출 할 수 있음을 보여줍니다.

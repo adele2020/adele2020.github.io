@@ -1,0 +1,18 @@
+Qlib : An AI-oriented Quantitative Investment Platform
+
+Quantitative investment aims to maximize the return and minimize the risk in a sequential trading period over a set of financial instruments.
+Recently, inspired by rapid development and great potential of AI technologies in generating remarkable innovation in quantitative investment, there has been increasing adoption of AI-driven workflow for quantitative research and practical investment.
+In the meantime of enriching the quantitative investment methodology, AI technologies have raised new challenges to the quantitative investment system.
+Particularly, the new learning paradigms for quantitative investment call for an infrastructure upgrade to accommodate the renovated workflow;
+moreover, the data-driven nature of AI technologies indeed indicates a requirement of the infrastructure with more powerful performance;
+additionally, there exist some unique challenges for applying AI technologies to solve different tasks in the financial scenarios.
+To address these challenges and bridge the gap between AI technologies and quantitative investment, we design and develop Qlib that aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment.
+
+
+양적 투자는 일련의 금융 상품에 대한 순차 거래 기간에 수익을 극대화하고 위험을 최소화하는 것을 목표로합니다.
+최근에는 양적 투자에서 획기적인 혁신을 창출하는 AI 기술의 빠른 개발과 큰 잠재력에 영감을 받아 양적 연구 및 실제 투자를위한 AI 기반 워크 플로의 채택이 증가하고 있습니다.
+양적 투자 방법론을 강화하는 한편 AI 기술은 양적 투자 시스템에 새로운 도전을 제기했습니다.
+특히, 양적 투자를위한 새로운 학습 패러다임은 혁신 된 워크 플로우를 수용하기위한 인프라 업그레이드를 요구합니다.
+또한 AI 기술의 데이터 기반 특성은 실제로 더 강력한 성능을 갖춘 인프라의 요구 사항을 나타냅니다.
+또한 재무 시나리오에서 다양한 작업을 해결하기 위해 AI 기술을 적용하는 데 몇 가지 고유 한 과제가 있습니다.
+이러한 과제를 해결하고 AI 기술과 양적 투자 간의 격차를 해소하기 위해 우리는 잠재력을 실현하고 연구를 강화하며 양적 투자에서 AI 기술의 가치를 창출하는 것을 목표로하는 Qlib를 설계 및 개발합니다.

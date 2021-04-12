@@ -1,0 +1,13 @@
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers.
+Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers.
+As a result, the pre-trained BERT model can be finetuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspecific architecture modifications.
+BERT is conceptually simple and empirically powerful.
+It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+
+Transformers의 Bidirectional Encoder Representations를 나타내는 BERT라는 새로운 언어 표현 모델을 소개합니다.
+최근의 언어 표현 모델 (Peters et al., 2018a; Radford et al., 2018)과 달리 BERT는 모든 레이어의 왼쪽 및 오른쪽 컨텍스트를 공동 조건으로 지정하여 레이블이없는 텍스트에서 깊은 양방향 표현을 사전 학습하도록 설계되었습니다.
+결과적으로 사전 훈련 된 BERT 모델은 단 하나의 추가 출력 레이어로 미세 조정되어 실질적인 작업 별 아키텍처 수정없이 질문 답변 및 언어 추론과 같은 광범위한 작업에 대한 최신 모델을 생성 할 수 있습니다.
+BERT는 개념적으로 간단하고 경험적으로 강력합니다.
+GLUE 점수를 80.5 % (7.7 % 포인트 절대 향상), MultiNLI 정확도를 86.7 % (4.6 % 절대 향상), SQuAD v1.1로 올리는 등 11 개의 자연어 처리 작업에 대한 새로운 최신 결과를 얻습니다. 시험 F1 ~ 93.2 (1.5 점 절대 향상) 및 SQuAD v2.0 시험 F1 ~ 83.1 (5.1 점 절대 향상)에 대한 질문에 답합니다.

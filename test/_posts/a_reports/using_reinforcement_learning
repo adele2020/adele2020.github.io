@@ -1,0 +1,23 @@
+Using Reinforcement Learning in the Algorithmic Trading Problem
+
+The development of reinforced learning methods has extended application to many areas including algorithmic trading.
+In this paper trading on the stock exchange is interpreted into a game with a Markov property consisting of states, actions, and rewards.
+A system for trading the fixed volume of a financial instrument is proposed and experimentally tested;
+this is based on the asynchronous advantage actor-critic method with the use of several neural network architectures.
+The application of recurrent layers in this approach is investigated.
+The experiments were performed on real anonymized data.
+The best architecture demonstrated a trading strategy for the RTS Index futures (MOEX:RTSI) with a profitability of 66% per annum accounting for commission.
+The project source code is available via the following link:
+http://github.com/evgps/a3c_trading.
+Keywords: algorithmic trading, reinforcement learning, neural network, recurrent neural networks
+
+강화 된 학습 방법의 개발은 알고리즘 거래를 포함한 많은 영역에 적용을 확장했습니다.
+이 문서에서 증권 거래소에서의 거래는 상태, 행동 및 보상으로 구성된 Markov 속성을 가진 게임으로 해석됩니다.
+고정 거래량의 금융 상품 거래 시스템이 제안되고 실험적으로 테스트됩니다.
+이는 여러 신경망 아키텍처를 사용하는 비동기 적 이점 행위자 비판 방법을 기반으로합니다.
+이 접근법에서 반복 레이어의 적용이 조사됩니다.
+실험은 실제 익명 데이터에 대해 수행되었습니다.
+최고의 아키텍처는 수수료를 고려하여 연간 66 %의 수익성으로 RTS 지수 선물 (MOEX : RTSI)에 대한 거래 전략을 보여주었습니다.
+프로젝트 소스 코드는 다음 링크를 통해 사용할 수 있습니다.
+http://github.com/evgps/a3c_trading.
+키워드 : 알고리즘 거래, 강화 학습, 신경망, 순환 신경망

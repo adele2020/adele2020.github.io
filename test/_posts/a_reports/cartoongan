@@ -1,0 +1,21 @@
+CartoonGAN: Generative Adversarial Networks for Photo Cartoonization
+
+
+In this paper, we propose a solution to transforming photos of real-world scenes into cartoon style images, which is valuable and challenging in computer vision and computer graphics.
+Our solution belongs to learning based methods, which have recently become popular to stylize images in artistic forms such as painting.
+However, existing methods do not produce satisfactory results for cartoonization, due to the fact that (1) cartoon styles have unique characteristics with high level simplification and abstraction, and (2) cartoon images tend to have clear edges, smooth color shading and relatively simple textures, which exhibit significant challenges for texture-descriptor-based loss functions used in existing methods. In this paper, we propose CartoonGAN, a generative adversarial network (GAN) framework for cartoon stylization.
+Our method takes unpaired photos and cartoon images for training, which is easy to use.
+Two novel losses suitable for cartoonization are proposed: (1) a semantic content loss, which is formulated as a sparse regularization in the high-level feature maps of the VGG network to cope with substantial style variation between photos and cartoons, and (2) an edge-promoting adversarial loss for preserving clear edges.
+We further introduce an initialization phase, to improve the convergence of the network to the target manifold.
+Our method is also much more efficient to train than existing methods.
+Experimental results show that our method is able to generate high-quality cartoon images from real-world photos (i.e., following specific artists’ styles and with clear edges and smooth shading) and outperforms state-of-the-art methods.
+
+
+본 논문에서는 실제 장면의 사진을 컴퓨터 비전 및 컴퓨터 그래픽에서 가치 있고 도전적인 만화 스타일 이미지로 변환하는 솔루션을 제안합니다.
+우리의 솔루션은 최근 그림과 같은 예술적 형태로 이미지를 스타일 화하는 데 널리 사용되는 학습 기반 방법에 속합니다.
+그러나 기존의 방법은 (1) 만화 스타일이 높은 수준의 단순화 및 추상화와 함께 고유 한 특성을 가지고 있고 (2) 만화 이미지가 명확한 가장자리, 부드러운 색상 음영 및 비교적 단순한 경향이 있기 때문에 만화 화에 대한 만족스러운 결과를 생성하지 못합니다. 기존 방법에서 사용되는 텍스처 설명자 기반 손실 함수에 대해 심각한 문제를 나타내는 텍스처. 본 논문에서는 만화 스타일 화를위한 GAN (generative adversarial network) 프레임 워크 인 CartoonGAN을 제안합니다.
+우리의 방법은 사용하기 쉬운 훈련을 위해 페어링되지 않은 사진과 만화 이미지를 가져옵니다.
+만화 화에 적합한 두 가지 새로운 손실이 제안됩니다. (1) VGG 네트워크의 고수준 기능 맵에서 희소 정규화로 공식화되어 사진과 만화 간의 상당한 스타일 변화에 대처하는 의미 론적 콘텐츠 손실 및 (2) 명확한 가장자리를 유지하기 위해 가장자리를 촉진하는 적대적 손실.
+네트워크의 대상 매니 폴드에 대한 수렴을 개선하기 위해 초기화 단계를 추가로 도입합니다.
+우리의 방법은 또한 기존 방법보다 훨씬 더 효율적입니다.
+실험 결과에 따르면 우리의 방법은 실제 사진에서 고품질 만화 이미지를 생성 할 수 있으며 (예 : 특정 아티스트의 스타일을 따르고 가장자리가 선명하고 음영이 부드럽게 처리됨) 최첨단 방법을 능가합니다.
