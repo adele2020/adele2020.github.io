@@ -1,5 +1,5 @@
 ---
-title:  "Distinguish between object localization and object detection"
+title:  "Introduction to Computer Vision"
 excerpt: ""
 categories:
   - 또다른정리
@@ -9,6 +9,18 @@ use_math: true
 year-archive: 2021
 last_modified_at: 2021-04-18T17:15:00-00:00
 ---
+
+- Distinguish between object localization and object detection
+- Distinguish between object detection and image segmentation
+- Distinguish between semantic segmentation and instance segmentation
+- Explain what is transfer learning and why it's used
+- Describe design options when using transfer learning
+- Implement object localization with a CNN
+- Implement an image classifier with transfer learning
+
+- Get a conceptual overview of Regional CNN (R-CNN), Fast-RCNN, and Faster R-CNN.
+- Retrieve the R-CNN model from TensorFlow hub and use it to perform object detection.
+
 Multi-Class classification 과 Muti-Label classification을 구분해서 생각해야 한다.
 Muti-Label classification은 예를 들어 주어진 이미지에 있는 모든 다른 항목과 사람을 식별 할 수 있다.
 
